@@ -3,7 +3,7 @@ import degreeClass from '../assets/degree class 42X42.png';
 
 export default function EducationSection(){
     return(
-        <div className={`w-full items-center`}>
+        <div className={`w-full items-center mb-8`}>
             <div className={`w-auto h-auto space-y-3 items-center align-middle`}>
                 {/*section header*/}
                 <div className={`flex flex-col items-center justify-center p-4`}>
