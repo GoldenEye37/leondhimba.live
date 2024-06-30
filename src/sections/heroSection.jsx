@@ -47,11 +47,12 @@ export default function HeroSection(){
                             </div>
                             {/*button*/}
                             <div className={`flex flex-row w-auto justify-start self-start space-x-3`}>
-                                <button className={`bg-button-100 px-5 py-2 rounded border border-black`}>Checkout My
+                                <button className={`bg-button-100 px-5 py-2 rounded border border-black
+                                        hover:bg-palette-4`}>Checkout My
                                     Experience
                                 </button>
-                                <button className={`bg-white px-5 py-2 rounded border border-black`}>Download My
-                                    Resume
+                                <button className={`bg-white px-5 py-2 rounded border border-black hover:bg-palette-4`}>
+                                    Download My Resume
                                 </button>
                             </div>
                         </div>
@@ -61,7 +62,7 @@ export default function HeroSection(){
                     <div className={`self-start w-786 h-full py-1 static grid items-stretch justify-items-stretch`}>
                         <button className={`bg-lime-50 flex flex-row w-268 h-auto p-6 space-x-3
                             rounded-t-full rounded-bl-full shadow-2xl absolute
-                            self-start justify-self-center mr-64 -ml-6
+                            self-start justify-self-center mr-64 -ml-6 hover:bg-palette-6
                             `}>
                             <img className={`w-8 h-8`} src="../public/mdi_github.svg" alt=""/>
                             <h1 className={`font-poppins font-bold text-3xl`}>MY GITHUB</h1>
@@ -74,14 +75,14 @@ export default function HeroSection(){
                         </div>
                         <button className={`bg-lime-50 flex flex-row w-auto h-auto p-6 space-x-3
                             rounded-t-full rounded-br-full shadow-2xl absolute
-                            self-start justify-self-end mt-28 mr-3
+                            self-start justify-self-end mt-28 mr-3 hover:bg-palette-6
                             `}>
                             <img className={`w-8 h-8`} src="../public/mdi_github.svg" alt=""/>
                             <h1 className={`font-poppins font-bold text-3xl`}>MY LINKEDIN</h1>
                         </button>
                         <button className={`bg-lime-50 flex flex-row w-268 h-auto p-6 space-x-3
                              rounded-b-full rounded-tl-full shadow-2xl absolute
-                             self-end justify-self-center mr-64 -ml-6 -mb-12
+                             self-end justify-self-center mr-64 -ml-6 -mb-12 hover:bg-palette-6
                             `}>
                             <img className={`w-8 h-8`} src="../public/mdi_github.svg" alt=""/>
                             <h1 className={`font-poppins font-bold text-3xl`}>EMAIL ME</h1>
