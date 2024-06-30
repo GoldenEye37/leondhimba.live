@@ -48,10 +48,10 @@ export default function HeroSection(){
                             {/*button*/}
                             <div className={`flex flex-row w-auto justify-start self-start space-x-3`}>
                                 <button className={`bg-button-100 px-5 py-2 rounded border border-black
-                                        hover:bg-palette-4`}>Checkout My
+                                        hover:bg-palette-6`}>Checkout My
                                     Experience
                                 </button>
-                                <button className={`bg-white px-5 py-2 rounded border border-black hover:bg-palette-4`}>
+                                <button className={`bg-white px-5 py-2 rounded border border-black hover:bg-palette-6`}>
                                     Download My Resume
                                 </button>
                             </div>
