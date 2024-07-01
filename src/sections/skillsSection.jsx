@@ -14,7 +14,16 @@ import djangoRestImg from '../assets/django rest 24x24.svg';
 import postgresImg from '../assets/postgres 24x24.svg';
 import mysqlImg from '../assets/mysql 24x24.svg';
 import redisImg from '../assets/redis 24x24.svg';
+import gitImg from '../assets/git 24x24.svg';
+import gitlabImg from '../assets/gitlab 24 x24.svg';
+import githubImg from '../assets/github 24x24.svg';
+import dockerImg from '../assets/docker 24x24.svg';
+import vercelImg from '../assets/vercel 24x24.svg';
+import renderImg from '../assets/render 24x24.svg';
+import herokuImg from '../assets/heroku 24x24.svg';
+import containersImg from '../assets/version control.svg';
 import springBootImg from '../assets/springboot 24x24.svg';
+import deployImg from '../assets/deploy 1024.svg';
 
 import SkillComponent from "../components/skillComponent.jsx";
 import SkillBoxedComponent from "../components/skillBoxedComponent.jsx";
@@ -22,14 +31,14 @@ import SkillBoxedComponent from "../components/skillBoxedComponent.jsx";
 export default function SkillsSection(){
     return (
         <div className={`w-full items-center mt-16 mb-8`}>
-            <div className={`w-auto h-auto space-y-8 gap-y-8 items-center align-middle`}>
+            <div className={`w-auto h-auto space-y-8 gap-y-12 items-center align-middle`}>
                 {/*section header*/}
                 <div className={`flex flex-col items-center justify-center p-4`}>
                     <img src={skillsImg} alt="Skills image" className={`bg-white mb-2`}/>
                     <h2 className={`font-robotslab font-bold text-4xl`}>Skills</h2>
                 </div>
                 {/* section content*/}
-                <div className={`w-full font-robotslab flex flex-col items-center gap-y-14`}>
+                <div className={`w-full font-robotslab flex flex-col items-center gap-y-16`}>
                     {/*frontend and backend*/}
                     <div className={`flex flex-row space-x-16 items-end`}>
                         {/*frontend*/}
@@ -78,9 +87,30 @@ export default function SkillsSection(){
                         </div>
                     </div>
                     {/*version control*/}
-                    <div></div>
+                    <div className={`flex flex-col items-center justify-center font-poppins`}>
+                        <div className={`flex flex-col items-center justify-center mb-8`}>
+                            <img src={containersImg} alt="Skills image" className={`mb-3 w-12 h-10`}/>
+                            <h2 className={`font-bold text-xl`}>Version Control & Containerization</h2>
+                        </div>
+                        <div className={`grid grid-cols-4 gap-x-14 gap-y-12 text-palette-2`}>
+                            <SkillBoxedComponent src={gitImg} text="Git"/>
+                            <SkillBoxedComponent src={githubImg} text="Github"/>
+                            <SkillBoxedComponent src={gitlabImg} text="Gitlab"/>
+                            <SkillBoxedComponent src={dockerImg} text="Docker"/>
+                        </div>
+                    </div>
                     {/*hosting*/}
-                    <div></div>
+                    <div className={`flex flex-col items-center justify-center font-poppins`}>
+                        <div className={`flex flex-col items-center justify-center mb-8`}>
+                            <img src={deployImg} alt="Skills image" className={`mb-3 w-12 h-10`}/>
+                            <h2 className={`font-bold text-xl`}>Hosting</h2>
+                        </div>
+                        <div className={`grid grid-cols-3 gap-x-14 gap-y-12 text-palette-2`}>
+                            <SkillComponent src={vercelImg} text="Vercel"/>
+                            <SkillComponent src={renderImg} text="Render"/>
+                            <SkillComponent src={herokuImg} text="Heroku"/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>)
