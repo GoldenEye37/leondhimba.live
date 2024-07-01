@@ -1,19 +1,26 @@
-import graduationPhoto from '../assets/graduation_photo.jpg'; // Ensure the path is correct
+import graduationPhoto from '../assets/graduation_photo.jpg';
+import degreeClass from "../assets/degree class 42X42.png"; // Ensure the path is correct
 
 export default function GraduationCard() {
   return (
-    <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-      <img className="w-full h-48 object-cover object-center" src={graduationPhoto} alt="Graduation" />
-      <div className="p-6">
-        <h2 className="font-robotslab font-bold text-2xl mb-2 text-center">Graduate</h2>
-        <p className="text-gray-700 text-base text-center">
-          Proudly graduated with a BSc Honours in Software Engineering from the University of Zimbabwe.
-        </p>
-        <div className="mt-4 text-center">
-          <span className="text-gray-600">2020 - 2024</span>
+    <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+      <img className="w-full h-56 object-cover object-center" src={graduationPhoto} alt="Graduation" />
+        <div className="p-6">
+            <h2 className="font-robotslab font-bold text-2xl mb-4 text-center">Graduate</h2>
+            <h2 className="font-robotslab font-bold text-2xl mb-2 text-center">In</h2>
+            <h2 className={`font-robotslab font-bold text-2xl mb-6 text-center`}>BSc Honours in Software
+                Engineering</h2>
+            <h2 className={`font-robotslab font-normal text-base mb-2`}>Degree Class: 2.1</h2>
+            <p className="font-poppins text-gray-700 text-base text-center">
+                Proudly graduated with a BSc Honours in Software Engineering from the University of Zimbabwe.
+                During my academic journey, I've taken a variety of courses that have equipped
+                me with the knowledge and skills required in the field of software engineering.
+            </p>
+            <div className="mt-4 text-center">
+                <span className={`font-normal font-robotslab text-base`}>2020 - 2024</span>
+            </div>
         </div>
-      </div>
     </div>
   );
-};
+}
 

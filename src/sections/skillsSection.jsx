@@ -30,7 +30,7 @@ import SkillBoxedComponent from "../components/skillBoxedComponent.jsx";
 
 export default function SkillsSection(){
     return (
-        <div className={`w-full items-center mt-16 mb-8`}>
+        <div className={`w-full items-center mt-16 mb-32`}>
             <div className={`w-auto h-auto space-y-8 gap-y-12 items-center align-middle`}>
                 {/*section header*/}
                 <div className={`flex flex-col items-center justify-center p-4`}>
