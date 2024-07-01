@@ -1,5 +1,6 @@
 import graduationCap from '../assets/graduationcap48x38.png';
 import degreeClass from '../assets/degree class 42X42.png';
+import GraduationCard from "../components/graduationCard.jsx";
 
 export default function EducationSection(){
     return(
@@ -10,6 +11,10 @@ export default function EducationSection(){
                     <img src={graduationCap} alt="Education section header image" className={`bg-white mb-2`}/>
                     <h2 className={`font-robotslab font-bold text-4xl`}>Education</h2>
                 </div>
+
+                {/* Graduation Card */}
+                <GraduationCard />
+
                 {/* section content*/}
                 <div className={`w-full px-64 font-robotslab flex flex-col items-center gap-y-8`}>
                     <div className={`w-28 font-normal text-lg bg-palette-7 rounded-md`}>2020 - 2024</div>
