@@ -1,9 +1,7 @@
 import graduationPhoto from '../assets/graduation_photo.jpg';
-import degreeClass from "../assets/degree class 42X42.png"; // Ensure the path is correct
-
 export default function GraduationCard() {
   return (
-    <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+    <div className="max-w-lg mx-auto bg-white shadow-lg shadow-palette-7 rounded-lg overflow-hidden">
       <img className="w-full h-56 object-cover object-center" src={graduationPhoto} alt="Graduation" />
         <div className="p-6">
             <h2 className="font-robotslab font-bold text-2xl mb-4 text-center">Graduate</h2>

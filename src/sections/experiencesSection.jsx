@@ -1,4 +1,5 @@
 import rocketImg from '../assets/experiences 48x48.svg'
+import ExperienceComponent from "../components/experienceComponent.jsx";
 
 export default function ExperiencesSection(){
     return (
@@ -11,8 +12,8 @@ export default function ExperiencesSection(){
                 </div>
                 {/* section content*/}
                 <div className={`w-full px-64 font-robotslab flex flex-col items-center gap-y-8`}>
-                    <div>
-                        
+                    <div className={``}>
+                        <ExperienceComponent/>
                     </div>
                 </div>
             </div>
