@@ -12,9 +12,7 @@ export default function ExperiencesSection(){
                 </div>
                 {/* section content*/}
                 <div className={`w-full px-64 font-robotslab flex flex-col items-center gap-y-8`}>
-                    <div className={``}>
                         <ExperienceComponent/>
-                    </div>
                 </div>
             </div>
         </div>)
