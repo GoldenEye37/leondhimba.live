@@ -26,16 +26,10 @@ export default function EducationSection(){
                              <div className="mt-4">
                                  <h4 className="font-semibold">Overview:</h4>
                                  <p>
-                                     During my academic journey, I've taken a variety of courses that have equipped me
-                                     with the knowledge and skills required in the field of software engineering. Some
-                                     of the key courses I completed include:
+                                     Proudly graduated with a BSc Honours in Software Engineering from the University of Zimbabwe.
+                                    During my academic journey, I've taken a variety of courses that have equipped
+                                    me with the knowledge and skills required in the field of software engineering.
                                  </p>
-                                 <ul className="list-disc list-inside mt-2">
-                                     <li>Course 1</li>
-                                     <li>Course 2</li>
-                                     <li>Course 3</li>
-                                     <li>Course 4</li>
-                                 </ul>
                              </div>
                          </div>
                      </div>
