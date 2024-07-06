@@ -31,7 +31,7 @@ export default function ExperiencesSection(){
 
 
     return (
-        <div className={`w-full items-center mb-8`}>
+        <div className={`w-full min-w-fit items-center mb-8`}>
             <div className={`w-auto h-auto space-y-3 items-center align-middle`}>
                 {/*section header*/}
                 <div className={`flex flex-col items-center justify-center p-4`}>
