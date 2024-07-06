@@ -1,8 +1,8 @@
-import graduationPhoto from '../assets/graduation_photo.jpg';
+import universityLogo from '../assets/university logo.png';
 export default function GraduationCard() {
   return (
     <div className="max-w-lg mx-auto bg-white shadow-lg shadow-palette-7 rounded-lg overflow-hidden">
-      <img className="w-full h-56 object-cover object-center" src={graduationPhoto} alt="Graduation" />
+      <img className="w-full h-56 object-cover object-center" src={universityLogo} alt="university logo" />
         <div className="p-6">
             <h2 className="font-robotslab font-bold text-2xl mb-4 text-center">Graduate</h2>
             <h2 className="font-robotslab font-bold text-2xl mb-2 text-center">In</h2>
