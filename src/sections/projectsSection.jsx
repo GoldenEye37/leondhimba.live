@@ -36,7 +36,7 @@ export default function ProjectsSection(){
                         description="This system is built to perform loan approval decision based on a trained dataset
                         which incorporates external news sources for deriving indystry trends."
                         tools="python, django, tensorflow"
-                        link="#"
+                        link="https://construction-prediction-88fc35165b1c.herokuapp.com/core"
                     />
                     <ProjectCard
                         imageSrc={constructionAppImage}
@@ -44,7 +44,7 @@ export default function ProjectsSection(){
                         description="This system is built to perform loan approval decision based on a trained dataset
                         which incorporates external news sources for deriving indystry trends."
                         tools="python, django, tensorflow"
-                        link="#"
+                        link="https://construction-prediction-88fc35165b1c.herokuapp.com/core"
                     />
                 </div>
             </div>
