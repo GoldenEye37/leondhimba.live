@@ -1,6 +1,4 @@
 import graduationCap from '../assets/graduationcap48x38.png';
-import degreeClass from '../assets/degree class 42X42.png';
-import GraduationCard from "../components/graduationCard.jsx";
 import universityLogo from '../assets/university logo.png';
 
 export default function EducationSection(){
