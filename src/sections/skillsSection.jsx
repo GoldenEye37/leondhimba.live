@@ -40,9 +40,9 @@ export default function SkillsSection(){
                 {/* section content*/}
                 <div className={`w-full font-robotslab flex flex-col items-center gap-y-16`}>
                     {/*frontend and backend*/}
-                    <div className={`flex flex-row space-x-16 items-end`}>
+                    <div className={`flex flex-row items-end`}>
                         {/*frontend*/}
-                        <div className={`flex flex-col items-center justify-center gap-y-3`}>
+                        <div className={`flex flex-col items-center justify-center gap-y-3 border-r border-gray-300 pr-16`}>
                             <div className={`flex flex-col items-center justify-center`}>
                                 <img src={htmlTags} alt="Skills image" className={`mb-3 w-12 h-10`}/>
                                 <h2 className={`font-bold text-xl`}>Frontend Dev</h2>
@@ -56,9 +56,9 @@ export default function SkillsSection(){
                             </div>
                         </div>
                         {/*line*/}
-                        <div className={`h-64 w-0.5 bg-palette-2`}></div>
+                        {/*<div className={`h-64 w-0.5 bg-gray-300`}></div>*/}
                         {/*backend*/}
-                        <div className={`flex flex-col items-center justify-center gap-y-3`}>
+                        <div className={`flex flex-col items-center justify-center gap-y-3 pl-16`}>
                             <div className={`flex flex-col items-center justify-center`}>
                                 <img src={serverImg} alt="Skills image" className={`mb-3 w-12 h-10`}/>
                                 <h2 className={`font-bold text-xl`}>Backend Dev</h2>
