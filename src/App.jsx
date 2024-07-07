@@ -4,6 +4,7 @@ import EducationSection from "./sections/educationSection.jsx";
 import SkillsSection from "./sections/skillsSection.jsx";
 import ExperiencesSection from "./sections/experiencesSection.jsx";
 import ProjectsSection from "./sections/projectsSection.jsx";
+import FooterSection from "./sections/footerSection.jsx";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <SkillsSection/>
           <ExperiencesSection/>
           <ProjectsSection/>
+          <FooterSection/>
       </section>
   )
 }

@@ -7,7 +7,7 @@ import projectsImage from "../assets/projects 48x48.png";
 
 export default function ProjectsSection(){
     return (
-        <div className="flex justify-center items-center pb-12">
+        <div className="flex justify-center items-center mb-8 pb-12">
             <div className={`w-auto h-auto space-y-10 items-center align-middle`}>
                 {/*section header*/}
                 <div className={`flex flex-col items-center justify-center p-4`}>
@@ -29,6 +29,22 @@ export default function ProjectsSection(){
                         which incorporates external news sources for deriving indystry trends."
                         tools={`react js, python, django rest, scikit-learn, ML`}
                         link="#"
+                    />
+                    <ProjectCard
+                        imageSrc={constructionAppImage}
+                        title="Construction Cost Prediction"
+                        description="This system is built to perform loan approval decision based on a trained dataset
+                        which incorporates external news sources for deriving indystry trends."
+                        tools="python, django, tensorflow"
+                        link="https://construction-prediction-88fc35165b1c.herokuapp.com/core"
+                    />
+                    <ProjectCard
+                        imageSrc={constructionAppImage}
+                        title="Construction Cost Prediction"
+                        description="This system is built to perform loan approval decision based on a trained dataset
+                        which incorporates external news sources for deriving indystry trends."
+                        tools="python, django, tensorflow"
+                        link="https://construction-prediction-88fc35165b1c.herokuapp.com/core"
                     />
                     <ProjectCard
                         imageSrc={constructionAppImage}
