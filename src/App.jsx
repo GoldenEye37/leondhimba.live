@@ -9,14 +9,14 @@ import FooterSection from "./sections/footerSection.jsx";
 function App() {
 
   return (
-      <section className={`custom-scrollbar`}>
-          <HeroSection/>
-          <EducationSection/>
-          <SkillsSection/>
-          <ExperiencesSection/>
-          <ProjectsSection/>
-          <FooterSection/>
-      </section>
+          <section className={`max-w-screen-2xl min-w-full`}>
+              <HeroSection/>
+              <EducationSection/>
+              <SkillsSection/>
+              <ExperiencesSection/>
+              <ProjectsSection/>
+              <FooterSection/>
+          </section>
   )
 }
 
